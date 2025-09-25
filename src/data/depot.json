@@ -1,0 +1,31 @@
+{
+  "layout": {
+    "rows": 3,
+    "columns": 4,
+    "bayPrefix": ["A", "B", "C"]
+  },
+  "bays": [
+    {"id": "A-01", "x": 0, "y": 0, "type": "service", "capacity": 1, "cleaningCapacity": true, "occupied": "KMRL-003"},
+    {"id": "A-02", "x": 1, "y": 0, "type": "service", "capacity": 1, "cleaningCapacity": true, "occupied": "KMRL-005"},
+    {"id": "A-03", "x": 2, "y": 0, "type": "standby", "capacity": 1, "cleaningCapacity": false, "occupied": "KMRL-001"},
+    {"id": "A-04", "x": 3, "y": 0, "type": "standby", "capacity": 1, "cleaningCapacity": false, "occupied": null},
+    
+    {"id": "B-01", "x": 0, "y": 1, "type": "service", "capacity": 1, "cleaningCapacity": true, "occupied": "KMRL-002"},
+    {"id": "B-02", "x": 1, "y": 1, "type": "service", "capacity": 1, "cleaningCapacity": true, "occupied": null},
+    {"id": "B-03", "x": 2, "y": 1, "type": "IBL", "capacity": 1, "cleaningCapacity": false, "occupied": "KMRL-006"},
+    {"id": "B-04", "x": 3, "y": 1, "type": "standby", "capacity": 1, "cleaningCapacity": false, "occupied": null},
+    
+    {"id": "C-01", "x": 0, "y": 2, "type": "maintenance", "capacity": 1, "cleaningCapacity": true, "occupied": null},
+    {"id": "C-02", "x": 1, "y": 2, "type": "IBL", "capacity": 1, "cleaningCapacity": false, "occupied": "KMRL-004"},
+    {"id": "C-03", "x": 2, "y": 2, "type": "standby", "capacity": 1, "cleaningCapacity": false, "occupied": null},
+    {"id": "C-04", "x": 3, "y": 2, "type": "standby", "capacity": 1, "cleaningCapacity": false, "occupied": null}
+  ],
+  "cleaningSlots": {
+    "available": 3,
+    "total": 6,
+    "manpower": {
+      "shift1": 4,
+      "shift2": 2
+    }
+  }
+}

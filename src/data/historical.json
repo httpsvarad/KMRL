@@ -1,0 +1,44 @@
+[
+  {
+    "date": "2024-10-20",
+    "inductionPlan": {
+      "service": ["KMRL-001", "KMRL-003", "KMRL-005"],
+      "standby": ["KMRL-002", "KMRL-006"],
+      "IBL": ["KMRL-004"]
+    },
+    "performance": {
+      "punctuality": 94.2,
+      "mileageBalance": 87.5,
+      "brandingCompliance": 91.3,
+      "shuntingMoves": 12
+    }
+  },
+  {
+    "date": "2024-10-21",
+    "inductionPlan": {
+      "service": ["KMRL-002", "KMRL-004", "KMRL-006"],
+      "standby": ["KMRL-001", "KMRL-003"],
+      "IBL": ["KMRL-005"]
+    },
+    "performance": {
+      "punctuality": 96.1,
+      "mileageBalance": 89.2,
+      "brandingCompliance": 88.7,
+      "shuntingMoves": 8
+    }
+  },
+  {
+    "date": "2024-10-22",
+    "inductionPlan": {
+      "service": ["KMRL-001", "KMRL-005", "KMRL-006"],
+      "standby": ["KMRL-003", "KMRL-004"],
+      "IBL": ["KMRL-002"]
+    },
+    "performance": {
+      "punctuality": 92.8,
+      "mileageBalance": 91.1,
+      "brandingCompliance": 93.4,
+      "shuntingMoves": 10
+    }
+  }
+]

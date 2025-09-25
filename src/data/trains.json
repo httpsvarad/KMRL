@@ -1,0 +1,159 @@
+[
+  {
+    "id": "KMRL-001",
+    "type": "3-Car EMU",
+    "currentMileage": 47250,
+    "fitnessExpiry": {
+      "rollingStock": "2024-12-15",
+      "signalTelecom": "2024-11-28"
+    },
+    "jobCards": [
+      {"id": "JC-001", "type": "AC Maintenance", "status": "closed", "priority": "medium"},
+      {"id": "JC-002", "type": "Brake Inspection", "status": "closed", "priority": "high"}
+    ],
+    "branding": {
+      "advertiser": "Kerala Tourism",
+      "targetHours": 120,
+      "currentHours": 98,
+      "priority": "high"
+    },
+    "systemHealth": {
+      "bogie": {"mileage": 23400, "nextService": 25000},
+      "hvac": {"mileage": 15200, "nextService": 18000},
+      "brakes": {"mileage": 8900, "nextService": 12000}
+    },
+    "lastCleaned": "2024-10-23T18:30:00Z",
+    "currentBay": "A-03",
+    "status": "standby"
+  },
+  {
+    "id": "KMRL-002",
+    "type": "3-Car EMU",
+    "currentMileage": 52100,
+    "fitnessExpiry": {
+      "rollingStock": "2024-11-30",
+      "signalTelecom": "2024-12-10"
+    },
+    "jobCards": [
+      {"id": "JC-003", "type": "Pantograph Check", "status": "open", "priority": "critical"},
+      {"id": "JC-004", "type": "Door System", "status": "closed", "priority": "medium"}
+    ],
+    "branding": {
+      "advertiser": "Cochin Shipyard",
+      "targetHours": 100,
+      "currentHours": 85,
+      "priority": "medium"
+    },
+    "systemHealth": {
+      "bogie": {"mileage": 28900, "nextService": 30000},
+      "hvac": {"mileage": 19800, "nextService": 22000},
+      "brakes": {"mileage": 11200, "nextService": 12000}
+    },
+    "lastCleaned": "2024-10-22T20:15:00Z",
+    "currentBay": "B-01",
+    "status": "service"
+  },
+  {
+    "id": "KMRL-003",
+    "type": "3-Car EMU",
+    "currentMileage": 38900,
+    "fitnessExpiry": {
+      "rollingStock": "2025-01-15",
+      "signalTelecom": "2024-12-20"
+    },
+    "jobCards": [
+      {"id": "JC-005", "type": "Routine Inspection", "status": "closed", "priority": "low"}
+    ],
+    "branding": {
+      "advertiser": "Spices Board",
+      "targetHours": 80,
+      "currentHours": 72,
+      "priority": "low"
+    },
+    "systemHealth": {
+      "bogie": {"mileage": 19200, "nextService": 25000},
+      "hvac": {"mileage": 12800, "nextService": 15000},
+      "brakes": {"mileage": 6400, "nextService": 8000}
+    },
+    "lastCleaned": "2024-10-23T22:45:00Z",
+    "currentBay": "A-01",
+    "status": "standby"
+  },
+  {
+    "id": "KMRL-004",
+    "type": "3-Car EMU",
+    "currentMileage": 44800,
+    "fitnessExpiry": {
+      "rollingStock": "2024-11-25",
+      "signalTelecom": "2024-12-05"
+    },
+    "jobCards": [
+      {"id": "JC-006", "type": "Compressor Service", "status": "open", "priority": "medium"},
+      {"id": "JC-007", "type": "Battery Check", "status": "closed", "priority": "low"}
+    ],
+    "branding": {
+      "advertiser": "IT Parks Kerala",
+      "targetHours": 150,
+      "currentHours": 142,
+      "priority": "medium"
+    },
+    "systemHealth": {
+      "bogie": {"mileage": 22100, "nextService": 25000},
+      "hvac": {"mileage": 16700, "nextService": 18000},
+      "brakes": {"mileage": 9800, "nextService": 12000}
+    },
+    "lastCleaned": "2024-10-23T16:20:00Z",
+    "currentBay": "C-02",
+    "status": "IBL"
+  },
+  {
+    "id": "KMRL-005",
+    "type": "3-Car EMU",
+    "currentMileage": 41200,
+    "fitnessExpiry": {
+      "rollingStock": "2025-02-10",
+      "signalTelecom": "2025-01-20"
+    },
+    "jobCards": [],
+    "branding": {
+      "advertiser": "Kerala Backwaters",
+      "targetHours": 90,
+      "currentHours": 88,
+      "priority": "high"
+    },
+    "systemHealth": {
+      "bogie": {"mileage": 20800, "nextService": 25000},
+      "hvac": {"mileage": 14200, "nextService": 15000},
+      "brakes": {"mileage": 7600, "nextService": 8000}
+    },
+    "lastCleaned": "2024-10-24T14:30:00Z",
+    "currentBay": "A-02",
+    "status": "standby"
+  },
+  {
+    "id": "KMRL-006",
+    "type": "3-Car EMU",
+    "currentMileage": 49700,
+    "fitnessExpiry": {
+      "rollingStock": "2024-12-01",
+      "signalTelecom": "2024-11-15"
+    },
+    "jobCards": [
+      {"id": "JC-008", "type": "Traction Motor", "status": "open", "priority": "high"}
+    ],
+    "branding": {
+      "advertiser": "KINFRA",
+      "targetHours": 110,
+      "currentHours": 95,
+      "priority": "high"
+    },
+    "systemHealth": {
+      "bogie": {"mileage": 26300, "nextService": 30000},
+      "hvac": {"mileage": 18900, "nextService": 22000},
+      "brakes": {"mileage": 10500, "nextService": 12000}
+    },
+    "lastCleaned": "2024-10-23T12:15:00Z",
+    "currentBay": "B-03",
+    "status": "service"
+  }
+]
