@@ -7,6 +7,7 @@ import { WhatIfSimulator } from './components/WhatIfSimulator';
 import { LearningPanel } from './components/LearningPanel';
 import { OptimizationResult, PerformanceMetrics } from './types/fleet';
 import { Train, Settings, Activity, Brain } from 'lucide-react';
+import logo from './assests/logo.png';
 
 function App() {
   const { trains, depot, historical, loading, updateTrainBay, setTrains } = useFleetData();
@@ -62,7 +63,7 @@ function App() {
               <div className="flex items-center space-x-2">
                 <div className="flex items-center justify-center">
                   {/* <Train className="w-5 h-5 text-white" /> */}
-                  <img src="./assests/logo.png" alt="logo" className='h-8 mt-2 w-auto' />
+                  <img src={logo} alt="logo" className='h-8 mt-2 w-auto' />
                 </div>
                 {/* <div>
                   
